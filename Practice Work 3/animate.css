@@ -1,0 +1,56 @@
+/*
+table {
+  border-collapse: collapse;
+}
+tr {
+  background: #eee;
+  border-bottom: 1px solid #fff;
+}
+tr, td {
+  padding: 0;
+}
+tr td {
+  max-height: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: max-height 0.3s, padding 0.3s;
+}
+tr.active td {
+  max-height: 100px;
+  padding: 10px 10px;
+  transition: max-height 0.6s, padding 0.6s;
+}
+*/
+
+
+/*
+table {
+    border-collapse: collapse;
+}
+tr td {
+    max-height: 0;
+    transition: max-height 0.3s, padding 0.3s;
+}
+tr.active td {
+    max-height: 100%;
+    transition: max-height 0.6s, padding 0.6s;
+}
+*/
+
+.done {
+    text-decoration: line-through;
+}
+
+#addNew {
+    text-decoration: none;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
